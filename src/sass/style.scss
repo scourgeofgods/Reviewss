@@ -1,0 +1,12 @@
+$font-family: "Kanit", sans-serif;
+$font-family-2: "Itim", cursive;
+
+$font-family-monospace: $font-family;
+$font-family-serif: $font-family-2;
+$font-size-root: 62.5%;
+$font-size-base: 1.6rem;
+body {
+  font-family: $font-family-serif !important;
+}
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import url("https://fonts.googleapis.com/css2?family=Itim&family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap");
